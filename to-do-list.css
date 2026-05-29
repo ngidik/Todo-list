@@ -1,0 +1,35 @@
+body{
+    font-family: arial;
+}
+
+.to-do-css,
+.todo-input{
+    display: grid;
+    grid-template-columns: 200px 80px 150px 100px;
+    row-gap: 16px;
+    column-gap: 15px;
+    align-items: center;
+    
+}
+.input-Todo-bar,.date-box{
+    padding: 5px;
+}
+.to-do-add-btn{
+    background-color: green;
+    color: White;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+.to-do-delete-btn{
+    background-color: darkred;
+    color: White;
+    font-size: 17px;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+}
+.todo-input{
+    margin-bottom: 16px;
+    align-items: stretch;
+}
